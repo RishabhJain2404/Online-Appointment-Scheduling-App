@@ -1,24 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Schedulrr - A Full Stack Online Appointment Scheduling Web Application
 
-## Getting Started
+## Overview:
+Schedulrr is a robust online appointment scheduling platform that empowers users to efficiently manage their schedules and collaborate with others. It provides a comprehensive suite of features, including a user-friendly dashboard, event management, availability settings, meeting history, and a public-facing custom user page.
 
-First, run the development server:
+## Key Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. **Dashboard:**
+- **Custom Page Link:** Displays the user's unique custom page URL.
+- **Upcoming Meetings:** Lists all upcoming appointments.
+- **Recent Updates:** Provides notifications for new events, bookings, or cancellations.
+### 2. **Events:**
+- **Creation:** Allows users to create public or private events with customizable details.
+- **Management:** Enables users to edit, cancel, or reschedule existing events.
+- **Calendar Integration:** Automatically syncs events with Google Calendar.
+### 3. **Availability:**
+- **Settings:** Lets users define their availability for appointments, including specific time slots and days.
+- **Updates:** Allows users to modify their availability as needed.
+### 4. **Meetings:**
+- **Upcoming:** Displays all scheduled appointments.
+- **Past:** Provides a history of completed meetings.
+- **Cancellation:** Enables users to cancel meetings if necessary.
+### 5. **Custom User Page:**
+- **Public Access:** Visible to anyone without requiring login.
+- **Event Listings:** Displays all public events hosted by the user.
+- **Booking:** Allows others to book appointments for available slots.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technology Stack:
+- **Frontend:** Next.js, React, Tailwind CSS, Shadcn UI
+- **Backend:** Neon DB, Prisma
+- **Authentication:** Clerk Authentication
+- **Google Integration:** Google Calendar API
 
 ## Learn More
 
